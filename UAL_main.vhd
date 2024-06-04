@@ -66,7 +66,33 @@ architecture Structural of Top_Level is
         RYG2 => RYG2
     );
 
-begin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    begin
     -- Logic to determine timer values
     process(slow_clk, reset)
     begin
