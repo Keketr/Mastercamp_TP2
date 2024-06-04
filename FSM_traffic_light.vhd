@@ -18,7 +18,7 @@ architecture Behavioral of Traffic_Controller is
 
     -- Signals for sensor input processing
     signal sensor1, sensor2 : STD_LOGIC;
-    signal timer_value : integer;  -- Assume this is managed externally
+    signal timer_value : integer;  
 
 begin
     state_logic: process(current_state, sensor1, sensor2, time_up)

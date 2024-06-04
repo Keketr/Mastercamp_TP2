@@ -9,7 +9,7 @@ entity Frequency_Divider is
 end Frequency_Divider;
 
 architecture Behavioral of Frequency_Divider is
-    constant DIVISOR : integer := 50000000;  -- Adjust the divisor based on input clock and desired output frequency
+    constant DIVISOR : integer := 50000000;  
     signal count : integer range 0 to DIVISOR-1 := 0;
 begin
     process(clk_in, reset)

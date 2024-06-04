@@ -75,8 +75,7 @@ begin
                 set_time <= 30; -- Default value
                 load_time <= '1'; -- Load on reset
             else
-                -- Example: Adjust set_time based on current state and sensor inputs
-                -- This part needs to be adjusted based on your state machine logic
+               
                 if (current_state = GREEN1) then
                     if (sensor1 = '1' and sensor2 = '0') then
                         set_time <= 40; -- Traffic heavy on sensor1
